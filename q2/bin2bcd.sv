@@ -27,7 +27,7 @@ end
 
 always_comb begin
     case (binary)
-       4'd0, 4'd1, 4'd2, 4'd4, 4'd5, 4'd6, 4'd7, 4'd8, 4'd9 :carry=1'd0; 
+       4'd0, 4'd1, 4'd2, 4'd3, 4'd4, 4'd5, 4'd6, 4'd7, 4'd8, 4'd9 :carry=1'd0; 
         default: carry=1'd1;
     endcase
 
